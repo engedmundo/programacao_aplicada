@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ambientes virtuais
+.env/
+.venv/
+env/
+venv/
+
+# Ferramentas do Python
+*.pyo
+*.pyd
+*.pdb
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDEs e editores
+.vscode/
+.idea/
+*.iml
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências
+pip-log.txt
+pip-delete-this-directory.txt
+poetry.lock
+Pipfile.lock
+
+# Testes e cobertura
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+pytest_cache/
+.cache/
+
+# Configurações do Docker
+.dockerignore
+docker-compose.override.yml
+
+# Segurança
+.env
+*.env
+*.key
+*.pem
+*.crt
+*.cert
+
+# Documentação gerada
+docs/_build/
+site/
+
+# Arquivos de banco de dados locais
+*.sqlite3
+*.db
+
+# Arquivos específicos do Django
+*.log
+db.sqlite3
+staticfiles/
+media/
+
+# Arquivos de configuração locais
+local_settings.py
+settings_local.py
