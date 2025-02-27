@@ -10,3 +10,5 @@ print(f"Nome e sobrenome: {nome} {sobrenome}")
 print(f"Idade: {idade} anos")
 print(f"Altura: {altura} m")
 print(f"Cidade: {cidade}")
+
+input("Digite uma mensagem: ")
