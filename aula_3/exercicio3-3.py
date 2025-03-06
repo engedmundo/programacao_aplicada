@@ -1,6 +1,8 @@
 valor = float(input("Digite o valor do produto: "))
 estado = input("Digite a sigla do estado: ")
 
+estado = estado.upper() # converter para maiúsculas
+
 erro = False
 
 if estado == "MG":
