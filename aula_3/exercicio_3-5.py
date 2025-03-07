@@ -29,6 +29,7 @@ jogada_usuario = jogada_usuario.lower()
 
 # gerar jogada computador
 jogada_computador = choice(jogadas_possiveis)
+print(f"Jogada do computador: {jogada_computador}")
 
 # comparar jogadas
 comparar_jogadas(jogada_usuario, jogada_computador)
