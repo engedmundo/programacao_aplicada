@@ -19,7 +19,7 @@ corrente_str = input("Digite a corrente, em Amperes: ")
 # Verificar qual das entradas é vazia
 if tensao_str == "" and resistencia_str != "" and corrente_str != "":
     print("#### Calculando a tensão ####")
-    tensao = calcular_tensao(resistencia_str, corrente_str)
+    tensao = calcular_tensao(corrente=corrente_str, resistencia=resistencia_str)
     print(f"Tensão calculada: {tensao:.2f} Volts")
 
 elif resistencia_str == "" and tensao_str != "" and corrente_str != "":
@@ -35,3 +35,5 @@ elif corrente_str == "" and tensao_str != "" and resistencia_str != "":
 
 else:
     print("ERRO!!! A combinação de entrada de dados é inválida!!")
+
+
