@@ -14,9 +14,9 @@ def calcular_duas_raizes(a, b, delta):
     return raiz_1, raiz_2
 
 
-a = float(input("Digite o valor de A"))
-b = float(input("Digite o valor de B"))
-c = float(input("Digite o valor de C"))
+a = float(input("Digite o valor de A "))
+b = float(input("Digite o valor de B "))
+c = float(input("Digite o valor de C "))
 
 # calcular delta
 delta = calcular_delta(a, b, c)
