@@ -64,6 +64,8 @@ docker-compose.override.yml
 *.crt
 *.cert
 
+atividades_alunos/
+
 # Documentação gerada
 docs/_build/
 site/
