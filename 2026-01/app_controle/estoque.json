@@ -1,0 +1,23 @@
+{
+    "PC01": {
+        "nome": "Rolamento",
+        "modelo": "6300",
+        "fabricante": "SKA",
+        "quantidade_em_estoque": 3,
+        "preco": 50
+    },
+    "PC02": {
+        "nome": "Parafuso",
+        "modelo": "M12",
+        "fabricante": "-",
+        "quantidade_em_estoque": 20,
+        "preco": 3.0
+    },
+    "PC03": {
+        "nome": "Porca",
+        "modelo": "M12",
+        "fabricante": "-",
+        "quantidade_em_estoque": 18,
+        "preco": 0.5
+    }
+}

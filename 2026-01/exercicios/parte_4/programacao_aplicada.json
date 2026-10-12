@@ -1,0 +1,18 @@
+{
+    "disciplina": "Programação Aplicada",
+    "professor": "Edmundo",
+    "alunos": [
+        {
+            "nome": "Joel",
+            "nota": 3.5
+        },
+        {
+            "nome": "João",
+            "nota": 4
+        },
+        {
+            "nome": "Hadassa",
+            "nota": 8
+        }
+    ]
+}
